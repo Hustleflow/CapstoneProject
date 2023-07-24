@@ -1,0 +1,60 @@
+.signuphead {
+   
+  
+    left: 50%;
+    text-align: center;
+    font-family: 'Outfit', Cinzel;
+    font-size: 20px;
+    top: 10px;
+    font-style: italic;
+    word-wrap: break-word;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding: 0;  
+    font-weight: 200;
+    
+
+
+}
+
+.signup-button{
+  width: auto;
+  padding: 10px 20px 10px 20px; 
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px; 
+  align-items: center;
+  text-align: center;
+  font-family: 'Outfit';
+}
+
+ .signup-button:hover {
+  background-color: #d3d0d0;
+  color: #000;
+}
+
+
+
+
+.inputsubscribe {
+  padding: 0 0px;
+  margin: 0 10px;
+  border: 1px solid #000;
+}
+
+.this-paragraph3 {
+  text-align: justify;
+  word-wrap: break-word;
+  width: 40%;
+  font-family: 'Outfit';
+  font-weight: 200;
+  font-style: italic;
+  margin-left: 30%;
+
+
+
+  
+}

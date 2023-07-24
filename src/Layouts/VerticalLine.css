@@ -1,0 +1,12 @@
+.vertical {
+    border-left: 2px solid black;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: 0;
+
+}
+
+
+
+

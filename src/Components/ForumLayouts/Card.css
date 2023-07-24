@@ -1,0 +1,35 @@
+.first-container {
+    display: flex;
+    gap: 0px;
+    margin-left: 5%;
+   
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    margin-left: 12%;
+  }
+  
+  .logisticsImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .level {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-text {
+    margin: 0;
+  }

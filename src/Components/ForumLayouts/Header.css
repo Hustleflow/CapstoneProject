@@ -1,0 +1,37 @@
+.headerlist {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Outfit';
+
+}
+
+.headerlist li {
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 30%;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+.headername {
+    margin-left: 2%;
+    margin-right: 10%;
+    font-family: 'Cinzel';
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+span{
+    font-size: 60px;
+}
+
+.list-style{
+    font-family: 'Outfit';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+}

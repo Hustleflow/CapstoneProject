@@ -1,0 +1,16 @@
+.textstyle {
+   
+  
+    left: 50%;
+    text-align: center;
+    font-family: 'Outfit', Cinzel;
+    font-size: 70px;
+    top: 10px;
+    font-style: italic;
+    word-wrap: break-word;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;  
+    font-weight: 200;
+
+}

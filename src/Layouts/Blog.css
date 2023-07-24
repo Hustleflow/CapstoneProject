@@ -1,0 +1,50 @@
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-content {
+    margin-left: 350px;
+}
+
+.blog-paragraph{
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-style: italic;
+}
+
+.blog-image{
+    width: 400px;
+    height: 350px;
+    margin-right: 320px;
+    border-radius: 5px;
+}
+
+.blog-container {
+    position: relative;
+    margin-top: 15px;;
+}
+
+.blog-button {
+
+    width: auto;
+    padding: 10px 20px 10px 20px; 
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px; 
+    align-items: center;
+    text-align: center;
+    font-family: 'Outfit';
+    
+  }
+
+  .blog-button:hover {
+  background-color: #d3d0d0;
+  color: #000;
+}

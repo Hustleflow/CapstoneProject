@@ -1,0 +1,177 @@
+
+
+
+
+.variant1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 55%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    margin-left: 15%;
+    height: auto;
+    background-color: rgb(250, 247, 247);
+    margin-bottom: 300px;
+  }
+  
+
+  .degree1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .variant-text {
+    margin: 0;
+  }
+
+  .h4style {
+    font-weight: 350;
+  }
+
+  .btn1 {
+    padding: 10px 10px;
+    font-size: 1rem;
+    background-color: rgb(250, 247, 247);
+    color: #222;
+    border: 1px solid #000;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.btn1-light {
+    padding: 10px 42px;
+    font-size: 1rem;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: lighter;
+    cursor: pointer;
+
+    
+}
+
+.btn1:hover {
+  background: lightgray;
+    color:#000;
+    transition: 0.3s;
+
+}
+
+.btn1-light:hover {
+    background: transparent;
+    color:#222;
+    transition: 0.3s;
+}
+
+a {
+text-decoration: none;
+}
+
+.degree1 .btn2{
+  margin: 1rem 0.5rem;
+}
+
+.toalign{
+  display: flex;
+  align-items: center;
+}
+
+
+.imagedistance {
+  padding: 7px 7px;
+  font-size: 1rem;
+  background-color: rgb(250, 247, 247);
+  color: #222;
+  cursor: pointer;
+}
+
+.degree1 .imagedistance{
+  margin: 1rem 0.9rem;
+}
+
+.thisparagraph{
+  color: transparent;
+}
+
+.digitdistance {
+  padding: 7px 10px;
+  font-size: 1rem;
+  background-color: rgb(250, 247, 247);
+  color: #222;
+  cursor: pointer;
+}
+
+.degree1 .digitdistance{
+  margin: 1rem 0.8rem;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.link-nostyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+.degree2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    text-align: justify;
+  }
+
+  .Similar {
+    font-weight: lighter;
+    font-size: 17px;
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  .example {
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 0 0;
+    margin: 0 0 0 20px;
+  }
+
+  .internal {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  .degree4 {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .crownspacing {
+    margin-left: 7px;
+  }
+
+  .circle {
+    margin: 0 2%;
+    padding: 0 0;
+  }
+
+.admin-paragraph {
+margin: 0 0;
+padding: 0 0;
+}
+
+.child {
+   padding: 0 0;
+   margin: auto 0;
+  }
+
+  .this-paragraph {
+    text-align: justify;
+    word-wrap: break-word;
+    width: 90%;
+  }

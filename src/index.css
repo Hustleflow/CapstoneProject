@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Cinzel:wght@400;600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Cinzel:wght@400;600&family=Frank+Ruhl+Libre:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Cinzel:wght@400;600&family=Frank+Ruhl+Libre:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&family=Spectral:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Bacasime+Antique&family=Cinzel:wght@400;600&family=Frank+Ruhl+Libre:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&family=Spectral:ital,wght@1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Bacasime+Antique&family=Cinzel:wght@400;600&family=Frank+Ruhl+Libre:wght@300&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poiret+One&family=Spectral:ital,wght@1,200&display=swap');
+
+* {
+  max-width: 100%;
+  max-height: 100%;
+}

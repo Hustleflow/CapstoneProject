@@ -1,0 +1,86 @@
+.variant2-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 55%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    margin-left: 15%;
+    height: auto;
+    background-color: rgb(250, 247, 247);
+    margin-bottom: 100px;
+  }
+  
+
+  .degree7 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .horizontal-line1 {
+    width: 100%;
+    height: 0.07px;
+    background-color: black;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .icons {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .forviews {
+    display: flex;
+  }
+
+  .weighted {
+    margin-right: 10px;
+    font-weight: 100;
+  }
+
+  .distanced {
+    margin-right: 700px;
+    font-weight: 100;
+  }
+
+  .bottom-icon {
+    fill: white; /* Set the fill color to white */
+    stroke: red;
+   
+  }
+
+  .this-paragraph1 {
+    text-align: justify;
+    word-wrap: break-word;
+    width: 95%;
+    font-family: 'Outfit', Cinzel;
+  }
+
+  .monkey-codes {
+    width: 700px;
+    height: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 5%;
+    box-shadow: 10px;
+    border-radius: 4px;
+  }
+
+  .design {
+    font-weight: 400;
+  }
+
+.this-paragraph2 {
+    text-align: justify;
+    word-wrap: break-word;
+    width: 95%;
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-style: italic;
+ 
+
+    
+}
