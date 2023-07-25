@@ -1,7 +1,9 @@
 import "./TopicContent.css";
 import React from "react";
+import axios from "axios";
 
 import { Link } from "react-router-dom";
+
 
 import {
  FaEye,
@@ -15,6 +17,15 @@ import {
 } from "react-icons/fa";
 
 const TopicContent = () => {
+
+    const getApi = async () => {
+        await axios.get("http://localhost:3077");
+    }
+
+    getApi();
+
+
+
     return (
         <div className="variant1-container">
                  
