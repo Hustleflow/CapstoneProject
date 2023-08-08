@@ -36,3 +36,15 @@
   background-color: #d3d0d0;
   color: #000;
 }
+
+.reveal {
+  position: relative;
+  transform: transalteY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}

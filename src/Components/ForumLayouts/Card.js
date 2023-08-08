@@ -26,11 +26,12 @@ const Card = () => {
             </div>
             <p className="card-text">Logistics discussions provide opportunities for the team to disclose intricate details and challenges of their tasks.</p>
         </div>
+        
         <div className="card-container">
-            <Link to="/Comments"><img className="logisticsImage" src={StaffUpdates} alt="Delivery"/></Link>
+            <Link to="/StaffUpdates"><img className="logisticsImage" src={StaffUpdates} alt="Delivery"/></Link>
            <div className="level">
             <p>STAFF UPDATES</p>
-            <p> <Link to="/Comments">Follow</Link></p>
+            <p> <Link to="/StaffUpdates">Follow</Link></p>
             </div> 
             <div>
             

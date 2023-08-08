@@ -1,7 +1,7 @@
 .first-container {
     display: flex;
     gap: 0px;
-    margin-left: 5%;
+    margin-left: 20%;
    
 }
 
@@ -17,7 +17,7 @@
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin: 10px;
-    margin-left: 12%;
+    margin-left: 5%;
   }
   
   .logisticsImage {
@@ -32,4 +32,16 @@
 
   .card-text {
     margin: 0;
+  }
+
+  .reveal {
+    position: relative;
+    transform: transalteY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
   }

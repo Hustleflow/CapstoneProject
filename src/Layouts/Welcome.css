@@ -14,3 +14,30 @@
     font-weight: 200;
 
 }
+
+
+@media screen and (max-width: 640px){
+    .textstyle {
+        font-size: 40px;
+    }
+    .welcome{
+        position: relative;
+     
+
+       
+    }
+
+
+}
+
+.reveal {
+    position: relative;
+    transform: transalteY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }

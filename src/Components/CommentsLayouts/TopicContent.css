@@ -23,6 +23,13 @@
     justify-content: space-between;
   }
 
+
+
+
+  .input1 {
+    margin-right: 10px;
+  }
+
   .variant-text {
     margin: 0;
   }
@@ -44,13 +51,26 @@
 .btn1-light {
     padding: 10px 42px;
     font-size: 1rem;
-    background: #000;
-    color: #fff;
-    border: 1px solid #000;
+    background: rgb(250, 247, 247);
+    color: rgb(250, 247, 247);
+    border: 1px solid rgb(250, 247, 247);
     font-weight: lighter;
     cursor: pointer;
 
     
+}
+
+.btn7-light {
+  padding: 10px 25px;
+  font-size: 1rem;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  font-weight: lighter;
+  cursor: pointer;
+  border-radius: 4px;
+
+  
 }
 
 .btn1:hover {
@@ -60,7 +80,7 @@
 
 }
 
-.btn1-light:hover {
+.btn7-light:hover {
     background: transparent;
     color:#222;
     transition: 0.3s;
@@ -175,3 +195,8 @@ padding: 0 0;
     word-wrap: break-word;
     width: 90%;
   }
+
+.commentList {
+  list-style: none;
+  text-decoration: none;
+}

@@ -3,6 +3,9 @@ import React from "react";
 import axios from "axios";
 
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useEffect } from "react";
+
 
 
 import {
@@ -17,12 +20,29 @@ import {
 } from "react-icons/fa";
 
 const TopicContent = () => {
-
+    
     const getApi = async () => {
         await axios.get("http://localhost:3077");
-    }
+    };
 
-    getApi();
+    useEffect ( () => {
+        getApi();
+    }, []) 
+    
+
+    const [task, setTask] = useState("");
+    const [taskList, setTaskList] = useState([]);
+
+
+
+
+    const sendData = async () => {
+        await axios.post("http://localhost:3077/tasks", {task})
+        setTaskList([...taskList, {task}]);
+        setTask('');
+    };
+
+
 
 
 
@@ -41,7 +61,21 @@ const TopicContent = () => {
                                 <p>How has our logistics evolved?</p>
                                 <Link>in Logistics </Link>    
 
-                                <p className="this-paragraph">Lorem ipsum dolor sit amet. Est quasi fuga aut earum consequatur qui porro provident sed placeat explicabo ut molestiae autem. Rem sint architecto ut molestias odit cum natus aperiam ea sint ullam sit inventore dolorem non dolor totam. Qui doloremque odit qui alias nostrum est quibusdam excepturi eum odit quia et cupiditate praesentium nam architecto ipsa.</p>                        
+                                <p className="this-paragraph">E-commerce and the rise of online shopping have driven the demand for faster and more reliable deliveries, leading to the adoption of new delivery methods, such as drone and autonomous vehicle deliveries, last-mile innovations, and same-day or even one-hour delivery services. These changes have pushed logistics providers to develop more agile and flexible delivery networks to meet customer demands.</p>
+
+                                <ul className="commentList">
+                                    {taskList.map((task) => (
+                                    <li >{task.task}</li>
+                                        ))}
+                                </ul>
+
+                                <div>
+                                        
+
+                                        <input className="input1" value={task} type="text" placeholder="'Type your comment here'" onChange={(event) => setTask(event.target.value)}/> 
+                                        
+                                        <button className="btn7-light" onClick={() => sendData()} disabled={task === '' || !task}>Comment</button>
+                                </div>                      
                             </div>
 
                                                     
@@ -50,9 +84,9 @@ const TopicContent = () => {
 
 
                                      <div>
-                                        <div  className="degree2">
+                                        <div>
                                             <p><Link to="/Comments" className="btn1"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                            <p><Link to="/Comments" className="btn1-light">Comment</Link></p>
+                                            <button className="btn1-light">Comment</button>
                                         </div>
 
                                             <p> <FaEye size={15} style={{color: "#000", marginRight: "0"}}/> 60 views</p>
@@ -65,7 +99,6 @@ const TopicContent = () => {
                                         
                     </div> 
 
-              
                     
         </div>
         

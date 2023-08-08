@@ -3,10 +3,34 @@
     height: 300px;
     position: relative;
     left: 50%;
-    top: 0;
+    top: 0px;
 
 }
 
 
+@media screen and (max-width: 640px){
+        .vertical {
+        margin-top: 415px;
+        position: absolute;
+        margin-bottom: 0;
+
+
+    
+    }
+    
+    
+}
+
+.reveal {
+    position: relative;
+    transform: transalteY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 
 

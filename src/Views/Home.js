@@ -13,23 +13,27 @@ import SignUp from '../Layouts/SignUp';
 import Footer from '../Layouts/Footer';
 
 const Home = () => {
+
+
   return (
     <div>
-    <Navbar />
+    <Navbar/>
     <DefineImage />
-    <VerticalLine/>
-    <Welcome/>
-    <VerticalLine1/>
+    <VerticalLine />
+    <Welcome />
+    <VerticalLine1 />
     <ImageTwo />
-    <VerticalLine1/>
+    <VerticalLine1 />
     <Explore />
-    <VerticalLine1/>
-    <Blog/>
-    <VerticalLine1/>
+    <VerticalLine1 />
+    <Blog />
+    <VerticalLine1 />
     <Contributors />
-    <VerticalLine1/>
-    <SignUp />
-    <Footer />
+    <VerticalLine1 />
+    <SignUp/>
+    <Footer/>
+
+    
     
 
     </div>

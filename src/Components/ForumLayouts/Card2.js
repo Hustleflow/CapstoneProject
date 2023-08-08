@@ -10,13 +10,35 @@ import {
 } from "react-icons/fa";
 
 const Card2 = () => {
+    window.addEventListener('scroll', () => {
+        reveal();
+      });
+    
+      const reveal = () => {
+        const reveals = document.querySelectorAll('.reveal');
+    
+        for(let i =0; i < reveals.length; i++) {
+    
+          const windowheight = window.innerHeight;
+          const revealtop = reveals[i].getBoundingClientRect().top;
+          const revealpoint = 150;
+    
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add('active');
+          }
+          else {
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
+
     return (
-        <div className="first-container">
+        <div className="first-container reveal">
         <div className="card-container">
-            <Link to="/Comments"><img className="logisticsImage" src={Improvements} alt="Delivery"/></Link>
+            <Link to="/Improvements"><img className="logisticsImage" src={Improvements} alt="Delivery"/></Link>
            <div className="level">
             <p>IMPROVEMENTS</p>
-            <p> <Link to="/Comments">Follow</Link></p>
+            <p> <Link to="/Improvements">Follow</Link></p>
             </div> 
             <div>
             
@@ -27,10 +49,10 @@ const Card2 = () => {
             <p className="card-text">Logistics discussions provide opportunities for the team to disclose intricate details and challenges of their tasks.</p>
         </div>
         <div className="card-container">
-            <Link to="/Comments"><img className="logisticsImage" src={EmployeeHealth} alt="Delivery"/></Link>
+            <Link to="/EmployeeHealth"><img className="logisticsImage" src={EmployeeHealth} alt="Delivery"/></Link>
            <div className="level">
             <p>EMPLOYEE HEALTH</p>
-            <p> <Link to="/Comments">Follow</Link></p>
+            <p> <Link to="/EmployeeHealth">Follow</Link></p>
             </div> 
             <div>
             

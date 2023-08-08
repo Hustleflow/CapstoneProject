@@ -10,13 +10,34 @@ import {
 } from "react-icons/fa";
 
 const Card3 = () => {
+    window.addEventListener('scroll', () => {
+        reveal();
+      });
+    
+      const reveal = () => {
+        const reveals = document.querySelectorAll('.reveal');
+    
+        for(let i =0; i < reveals.length; i++) {
+    
+          const windowheight = window.innerHeight;
+          const revealtop = reveals[i].getBoundingClientRect().top;
+          const revealpoint = 150;
+    
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add('active');
+          }
+          else {
+            reveals[i].classList.remove('active');
+          }
+        }
+      }
     return (
-        <div className="first-container">
+        <div className="first-container reveal">
         <div className="card-container">
-            <Link to="/Comments"><img className="logisticsImage" src={ShortLongTerm} alt="Delivery"/></Link>
+            <Link to="/ShortLong"><img className="logisticsImage" src={ShortLongTerm} alt="Delivery"/></Link>
            <div className="level">
             <p>SHORT OR LONG TERM VISION</p>
-            <p> <Link to="/Comments">Follow</Link></p>
+            <p> <Link to="/ShortLong">Follow</Link></p>
             </div> 
             <div>
             
@@ -27,10 +48,10 @@ const Card3 = () => {
             <p className="card-text">Logistics discussions provide opportunities for the team to disclose intricate details and challenges of their tasks.</p>
         </div>
         <div className="card-container">
-            <Link to="/Comments"><img className="logisticsImage" src={LeadershipRoles} alt="Delivery"/></Link>
+            <Link to="/LeadershipRoles"><img className="logisticsImage" src={LeadershipRoles} alt="Delivery"/></Link>
            <div className="level">
             <p>LEADERSHIP ROLES</p>
-            <p> <Link to="/Comments">Follow</Link></p>
+            <p> <Link to="/LeadershipRoles">Follow</Link></p>
             </div> 
             <div>
             

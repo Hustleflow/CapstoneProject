@@ -8,4 +8,23 @@
 
 
 
+@media screen and (max-width: 640px){
+    .vertical1 {
+        
+        position: relative;
+    }
+    
 
+}
+
+.reveal {
+    position: relative;
+    transform: transalteY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
