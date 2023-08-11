@@ -23,8 +23,8 @@ const ChallengesCard = () => {
                         
 
                             <div className="degree">
-                                <p><Link to="/Comments" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                <p><Link to="/Comments" className="btn-light">Create New Post</Link></p>
+                                <p><Link to="/Challenges" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
+                                <p><Link to="/Challenges" className="btn-light">Create New Post</Link></p>
                             </div>
                             
 
@@ -63,7 +63,7 @@ const ChallengesCard = () => {
                 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">What obstacles hinder progress?</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic2" className="link-nostyle">What obstacles hinder progress?</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -87,7 +87,7 @@ const ChallengesCard = () => {
 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">How can we conquer our limits?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic2" className="link-nostyle">How can we conquer our limits?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -108,7 +108,7 @@ const ChallengesCard = () => {
                      <div className="horizontal-line"></div>
                      <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Chances arising from hardships?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic2" className="link-nostyle">Chances arising from hardships?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -130,7 +130,7 @@ const ChallengesCard = () => {
             </div>
 
             <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Better process for collaboration?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic2" className="link-nostyle">Better process for collaboration?</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">

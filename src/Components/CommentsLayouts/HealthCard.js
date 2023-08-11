@@ -23,8 +23,8 @@ const HealthCard = () => {
                         
 
                             <div className="degree">
-                                <p><Link to="/Comments" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                <p><Link to="/Comments" className="btn-light">Create New Post</Link></p>
+                                <p><Link to="/EmployeeHealth" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
+                                <p><Link to="/EmployeeHealth" className="btn-light">Create New Post</Link></p>
                             </div>
                             
 
@@ -63,7 +63,7 @@ const HealthCard = () => {
                 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Annual physical examination required for all.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic5" className="link-nostyle">Annual physical examination required for all.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -87,7 +87,7 @@ const HealthCard = () => {
 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Be excited to join our awesome 10k fun run! </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic5" className="link-nostyle">Be excited to join our awesome 10k fun run! </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -108,7 +108,7 @@ const HealthCard = () => {
                      <div className="horizontal-line"></div>
                      <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle"> Avail a free consultation with a psychologist. </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic5" className="link-nostyle"> Avail a free consultation with a psychologist. </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -130,7 +130,7 @@ const HealthCard = () => {
             </div>
 
             <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Find the precise balance and manage stress. </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic5" className="link-nostyle">Find the precise balance and manage stress. </Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">

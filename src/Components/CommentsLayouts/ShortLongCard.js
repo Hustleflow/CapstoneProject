@@ -30,8 +30,8 @@ const ShortLongCard = () => {
                         
 
                             <div className="degree">
-                                <p><Link to="/Comments" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                <p><Link to="/Comments" className="btn-light">Create New Post</Link></p>
+                                <p><Link to="/ShortLong" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
+                                <p><Link to="/ShortLong" className="btn-light">Create New Post</Link></p>
                             </div>
                             
 
@@ -70,7 +70,7 @@ const ShortLongCard = () => {
                 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Achieving milestones for immediate growth.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic6" className="link-nostyle">Achieving milestones for immediate growth.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -94,7 +94,7 @@ const ShortLongCard = () => {
 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Immediate goals driving current progress.<span style={spanStyles}>as</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic6" className="link-nostyle">Immediate goals driving current progress.<span style={spanStyles}>as</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -115,7 +115,7 @@ const ShortLongCard = () => {
                      <div className="horizontal-line"></div>
                      <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Strategic vision for future growth.<span style={spanStyles}>asdfghijklll</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic6" className="link-nostyle">Strategic vision for future growth.<span style={spanStyles}>asdfghijklll</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -137,7 +137,7 @@ const ShortLongCard = () => {
             </div>
 
             <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Big picture guiding lasting impact.<span style={spanStyles}>asdfghijkll</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic6" className="link-nostyle">Big picture guiding lasting impact.<span style={spanStyles}>asdfghijkll</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">

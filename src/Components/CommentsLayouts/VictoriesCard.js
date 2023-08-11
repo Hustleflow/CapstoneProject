@@ -23,8 +23,8 @@ const VictoriesCard = () => {
                         
 
                             <div className="degree">
-                                <p><Link to="/Comments" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                <p><Link to="/Comments" className="btn-light">Create New Post</Link></p>
+                                <p><Link to="/Victories" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
+                                <p><Link to="/Victories" className="btn-light">Create New Post</Link></p>
                             </div>
                             
 
@@ -63,7 +63,7 @@ const VictoriesCard = () => {
                 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">A well-deserved celebration for all.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic3" className="link-nostyle">A well-deserved celebration for all.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -87,7 +87,7 @@ const VictoriesCard = () => {
 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Cheers to our finance department!</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic3" className="link-nostyle">Cheers to our finance department!</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -108,7 +108,7 @@ const VictoriesCard = () => {
                      <div className="horizontal-line"></div>
                      <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Winner for the raffle ticket goes to!</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic3" className="link-nostyle">Winner for the raffle ticket goes to!</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -130,7 +130,7 @@ const VictoriesCard = () => {
             </div>
 
             <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Gifts of Appreciation to employees</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic3" className="link-nostyle">Gifts of Appreciation to employees</Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">

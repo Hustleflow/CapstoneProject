@@ -30,8 +30,8 @@ const LeadershipCard = () => {
                         
 
                             <div className="degree">
-                                <p><Link to="/Comments" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
-                                <p><Link to="/Comments" className="btn-light">Create New Post</Link></p>
+                                <p><Link to="/LeadershipRoles" className="btn"> <FaBell size={15} style={{color: "#000", marginRight: "1px"}}/> Follow Category</Link></p>
+                                <p><Link to="/LeadershipRoles" className="btn-light">Create New Post</Link></p>
                             </div>
                             
 
@@ -70,7 +70,7 @@ const LeadershipCard = () => {
                 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Guiding teams towards collective goals.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic7" className="link-nostyle">Guiding teams towards collective goals.</Link><FaThumbtack size={20} style={{color: "#000", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -94,7 +94,7 @@ const LeadershipCard = () => {
 
             <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Inspiring others to achieve greatness.<span style={spanStyles}>all</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic7" className="link-nostyle">Inspiring others to achieve greatness.<span style={spanStyles}>all</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -115,7 +115,7 @@ const LeadershipCard = () => {
                      <div className="horizontal-line"></div>
                      <div>
                 <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Empowering individuals to excel.<span style={spanStyles}>allsdfjk</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic7" className="link-nostyle">Empowering individuals to excel.<span style={spanStyles}>allsdfjk</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">
@@ -137,7 +137,7 @@ const LeadershipCard = () => {
             </div>
 
             <div className="degree">
-                        <p className="h4style"><Link to="/Topic" className="link-nostyle">Leading by example with integrity.<span style={spanStyles}>allsdfj</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
+                        <p className="h4style"><Link to="/Topic7" className="link-nostyle">Leading by example with integrity.<span style={spanStyles}>allsdfj</span></Link><FaThumbtack size={20} style={{color: "transparent", marginRight: "1px"}}/></p>
                                 
 
                         <div className="degree">

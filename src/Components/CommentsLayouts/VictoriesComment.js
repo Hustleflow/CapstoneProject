@@ -11,7 +11,7 @@ const VictoriesComment = () => {
                     <img className="logistics-img" src={Victories} alt="IntroImg"/>
                 </div>
                 <div className="content1">
-                    <h1 className="logistics-header">STAFF UPDATES</h1>
+                    <h1 className="logistics-header">VICTORIES</h1>
                     <p className="logistics-description">Embracing Victories: Celebrating Achievements and Milestones on the Journey to Success.</p>
                 </div>
                 </div>
