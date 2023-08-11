@@ -2,6 +2,8 @@ import "./ImageTwo.css";
 import React from "react";
 import BrainStorm from "../../src/Assets/brainstorming.png";
 import PaintMind from "../../src/Assets/Paintthemind.jpg";
+import BuildingBlocks from "../../src/Assets/BuildingBlocks.jpg";
+import KeyBlocks from "../../src/Assets/KeyBlocks.jpg";
 
 const ImageTwo = () => {
 
@@ -32,6 +34,8 @@ const ImageTwo = () => {
       <div className="tocontain reveal">
         <img className="image1" src={BrainStorm} alt="Brain" />
         <img className="image2" src={PaintMind} alt="Paint" />
+        <img className="image3" src={BuildingBlocks} alt="Paint" />
+        <img className="image4" src={KeyBlocks} alt="Paint" />
       </div>
     </div>
   );

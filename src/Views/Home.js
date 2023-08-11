@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
     <Navbar/>
-    <DefineImage />
+    <DefineImage/>
     <VerticalLine />
     <Welcome />
     <VerticalLine1 />
